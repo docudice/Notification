@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+
+body{
+background-color: hsl(210, 60%, 98%);
+font-family: 'Outfit', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#ReadAll{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+#Conteneur{
+ 
+ width: 700px;
+ height: 900px;
+ border-radius: 10px;
+ background-color: white;
+
+}
+
+.upNote{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top:0px;
+    margin: 10px;
+}
+
+ #Notifications{
+    font-weight: 800;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+}
+
+#numberofnotification{
+    margin-left: 10px;
+    color: white;
+    width:30px;
+    text-align: center;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 5px;
+
+}
+
+.NotificationCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    margin: 5px;
+}
+
+.NotificationCardnotDiscorve{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    height: 80px;
+    background-color: hsl(210, 60%, 98%);
+}
+
+.NotificationCardforMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.NotificationCardforMessagenotdicorve{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    background-color: hsl(210, 60%, 98%);
+}
+
+.NormalCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.messagearea{
+    background-color: white;
+    border-radius: 10px;
+    align-self: center;
+    width: 80%;
+    height: 80px;
+    padding: 5px;
+    padding-top: 15px;
+    font-size: normal;
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
+    border:1px solid hsl(218, 5%, 46%);
+}
+
+.messagearea:hover{
+    background-color: hsl(211, 68%, 94%);
+}
+
+.imagepseudo{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.pseudo{
+    font-weight: 800;
+    font-size: large;
+    cursor: pointer;
+}
+
+.pseudo:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+.subjet{
+    font-size: small;
+    color: hsl(219, 12%, 42%);
+    margin-top: 6px;
+}
+
+.evenementName{
+    font-size: large;
+    font-weight: 800;
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
+}
+
+.evenementName:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+.imagepicture{
+   margin-left:auto;
+   margin-right: 65px;
+   cursor: pointer;
+   width: 40px;
+   height: 40px;
+
+}
+
+.pointtofocus{
+    margin-top: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.attribution{
+margin-top: 5%;
+}
+
+
+@media screen and (max-width: 735px) {
+  
+
+
+    #Conteneur{
+ 
+        width: 333px;
+        height: 900px;
+        border-radius: 10px;
+
+       }
+
+       .pseudo{
+        font-weight: 800;
+        font-size: small;
+        cursor: pointer;
+    }
+    
+
+    .evenementName{
+        font-size: small;
+        font-weight: 800;
+        color: hsl(219, 12%, 42%);
+        cursor: pointer;
+    }
+
+    .pointtofocus{
+        margin-right: 10px;
+        width: 5px;
+        height: 5px;
+        border-radius: 5px;
+    }
+
+    .messagearea{
+        background-color: white;
+        border-radius: 10px;
+        align-self: center;
+        width: 80%;
+        height: 80px;
+        padding: 5px;
+        padding-top: 15px;
+        font-size: small;
+        color: hsl(219, 12%, 42%);
+        cursor: pointer;
+        border:1px solid hsl(218, 5%, 46%);
+    }
+
+
+    #Notifications{
+        font-weight: 800;
+        font-size: large;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #numberofnotification{
+        margin-left: 10px;
+        color: white;
+        width:30px;
+        text-align: center;
+        background-color: hsl(219, 85%, 26%);
+        border-radius: 5px;
+    
+    }
+
+
+    }
